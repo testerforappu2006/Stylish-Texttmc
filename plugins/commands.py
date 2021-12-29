@@ -8,7 +8,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'Ns_bot_updates'
+    owner_username = owner.username if owner.username else 'TMC_BOTX'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
@@ -17,16 +17,16 @@ async def start(c, m):
 
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 
-**👲 Maintained By:** {owner.mention(style='md')}
+**👲 Maintained By: @TMC_BOTX **
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👨‍✈️ My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('👨‍✈️ My Father 👨‍✈️', url=f"https://t.me/TMC_BOTX")
         ],
         [
-            InlineKeyboardButton('🤔 How To Use 🤔', url='https://youtu.be/9b9uWNyuk9M')
+            InlineKeyboardButton('🥸 HELP 🥸 ', url='https://t.me/TMC_BOTX_Group')
         ]
     ]
     await m.reply_text(
