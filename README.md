@@ -21,6 +21,10 @@ Press the button Deploy to heroku and give the values for the config vars. 👇
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/appu2006/Stylish-Text)
 
+## Deploy on Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Ftesterforappu2006%2FStylish-Text&envs=BOT_TOKEN%2CAPI_ID%2COWNER_ID%2CAPI_HASH&referralCode=appu2006)
+
 ## Tools Used 🧰
 - Language Used [<img src="https://telegra.ph/file/960ed8709acaf8c68b894.jpg" width="100" height="30">](https://www.python.org/)
 - Frame Work [<img src="https://telegra.ph/file/804f06d1590f7619a63ed.jpg" width="100" height="40">](https://github.com/pyrogram/pyrogram)
